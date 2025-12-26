@@ -1,46 +1,46 @@
 // Word database - curated collection of interesting words
 const wordDatabase = [
     // Week 1
-    { word: "Ephemeral", pronunciation: "/ɪˈfem.ər.əl/", pos: "adjective", definition: "Lasting for a very short time; transient and fleeting.", example: "The ephemeral beauty of cherry blossoms reminds us to appreciate each moment." },
-    { word: "Serendipity", pronunciation: "/ˌser.ənˈdɪp.ə.ti/", pos: "noun", definition: "The occurrence of events by chance in a happy or beneficial way.", example: "Meeting her best friend was pure serendipity—they sat next to each other on a plane." },
-    { word: "Mellifluous", pronunciation: "/meˈlɪf.lu.əs/", pos: "adjective", definition: "Sweet or musical; pleasant to hear.", example: "The singer's mellifluous voice filled the concert hall with warmth." },
-    { word: "Luminous", pronunciation: "/ˈluː.mɪ.nəs/", pos: "adjective", definition: "Bright or shining, especially in the dark; full of or shedding light.", example: "Her luminous smile could brighten even the darkest days." },
-    { word: "Effervescent", pronunciation: "/ˌef.əˈves.ənt/", pos: "adjective", definition: "Vivacious and enthusiastic; giving off bubbles; fizzy.", example: "Her effervescent personality made everyone around her feel energized." },
+    { word: "Ephemeral", pronunciation: "eh-FEM-er-ul", pos: "adjective", definition: "Lasting for a very short time; transient and fleeting.", example: "The ephemeral beauty of cherry blossoms reminds us to appreciate each moment." },
+    { word: "Serendipity", pronunciation: "ser-en-DIP-ih-tee", pos: "noun", definition: "The occurrence of events by chance in a happy or beneficial way.", example: "Meeting her best friend was pure serendipity—they sat next to each other on a plane." },
+    { word: "Mellifluous", pronunciation: "meh-LIF-loo-us", pos: "adjective", definition: "Sweet or musical; pleasant to hear.", example: "The singer's mellifluous voice filled the concert hall with warmth." },
+    { word: "Luminous", pronunciation: "LOO-min-us", pos: "adjective", definition: "Bright or shining, especially in the dark; full of or shedding light.", example: "Her luminous smile could brighten even the darkest days." },
+    { word: "Effervescent", pronunciation: "ef-er-VES-ent", pos: "adjective", definition: "Vivacious and enthusiastic; giving off bubbles; fizzy.", example: "Her effervescent personality made everyone around her feel energized." },
 
     // Week 2
-    { word: "Petrichor", pronunciation: "/ˈpe.trɪ.kɔːr/", pos: "noun", definition: "The pleasant, earthy smell after rain.", example: "The petrichor rising from the garden after the storm was incredibly refreshing." },
-    { word: "Eloquent", pronunciation: "/ˈel.ə.kwənt/", pos: "adjective", definition: "Fluent or persuasive in speaking or writing.", example: "Her eloquent speech moved the audience to tears." },
-    { word: "Ethereal", pronunciation: "/ɪˈθɪə.ri.əl/", pos: "adjective", definition: "Extremely delicate and light; seeming too perfect for this world.", example: "The ballet dancer moved with an ethereal grace that mesmerized the audience." },
-    { word: "Incandescent", pronunciation: "/ˌɪn.kænˈdes.ənt/", pos: "adjective", definition: "Emitting light as a result of being heated; passionate or brilliant.", example: "She gave an incandescent performance that earned her a standing ovation." },
-    { word: "Ebullient", pronunciation: "/ɪˈbʌl.i.ənt/", pos: "adjective", definition: "Cheerful and full of energy; enthusiastic.", example: "The children were ebullient on Christmas morning, racing to open their presents." },
+    { word: "Petrichor", pronunciation: "PET-ri-kor", pos: "noun", definition: "The pleasant, earthy smell after rain.", example: "The petrichor rising from the garden after the storm was incredibly refreshing." },
+    { word: "Eloquent", pronunciation: "EL-oh-kwent", pos: "adjective", definition: "Fluent or persuasive in speaking or writing.", example: "Her eloquent speech moved the audience to tears." },
+    { word: "Ethereal", pronunciation: "eh-THEER-ee-ul", pos: "adjective", definition: "Extremely delicate and light; seeming too perfect for this world.", example: "The ballet dancer moved with an ethereal grace that mesmerized the audience." },
+    { word: "Incandescent", pronunciation: "in-kan-DES-ent", pos: "adjective", definition: "Emitting light as a result of being heated; passionate or brilliant.", example: "She gave an incandescent performance that earned her a standing ovation." },
+    { word: "Ebullient", pronunciation: "eh-BULL-yent", pos: "adjective", definition: "Cheerful and full of energy; enthusiastic.", example: "The children were ebullient on Christmas morning, racing to open their presents." },
 
     // Week 3
-    { word: "Sanguine", pronunciation: "/ˈsæŋ.ɡwɪn/", pos: "adjective", definition: "Optimistic or positive, especially in a difficult situation.", example: "Despite the setbacks, she remained sanguine about the project's success." },
-    { word: "Quintessential", pronunciation: "/ˌkwɪn.təˈsen.ʃəl/", pos: "adjective", definition: "Representing the most perfect or typical example of something.", example: "The cottage, with its thatched roof and garden, was the quintessential English home." },
-    { word: "Ineffable", pronunciation: "/ɪnˈef.ə.bəl/", pos: "adjective", definition: "Too great or extreme to be expressed in words; indescribable.", example: "The ineffable joy of becoming a parent left them speechless." },
-    { word: "Resplendent", pronunciation: "/rɪˈsplen.dənt/", pos: "adjective", definition: "Attractive and impressive through being richly colorful or sumptuous.", example: "The peacock's resplendent plumage shimmered in the sunlight." },
-    { word: "Halcyon", pronunciation: "/ˈhæl.si.ən/", pos: "adjective", definition: "Denoting a period of time in the past that was idyllically happy and peaceful.", example: "They often reminisced about the halcyon days of their youth." },
+    { word: "Sanguine", pronunciation: "SANG-gwin", pos: "adjective", definition: "Optimistic or positive, especially in a difficult situation.", example: "Despite the setbacks, she remained sanguine about the project's success." },
+    { word: "Quintessential", pronunciation: "kwin-teh-SEN-shul", pos: "adjective", definition: "Representing the most perfect or typical example of something.", example: "The cottage, with its thatched roof and garden, was the quintessential English home." },
+    { word: "Ineffable", pronunciation: "in-EF-uh-bul", pos: "adjective", definition: "Too great or extreme to be expressed in words; indescribable.", example: "The ineffable joy of becoming a parent left them speechless." },
+    { word: "Resplendent", pronunciation: "reh-SPLEN-dent", pos: "adjective", definition: "Attractive and impressive through being richly colorful or sumptuous.", example: "The peacock's resplendent plumage shimmered in the sunlight." },
+    { word: "Halcyon", pronunciation: "HAL-see-on", pos: "adjective", definition: "Denoting a period of time in the past that was idyllically happy and peaceful.", example: "They often reminisced about the halcyon days of their youth." },
 
     // Week 4
-    { word: "Verdant", pronunciation: "/ˈvɜː.dənt/", pos: "adjective", definition: "Green with grass or other rich vegetation.", example: "The verdant hills of Ireland stretched as far as the eye could see." },
-    { word: "Sonorous", pronunciation: "/ˈsɒn.ər.əs/", pos: "adjective", definition: "Capable of producing a deep or ringing sound; impressive in style.", example: "The actor's sonorous voice commanded attention whenever he spoke." },
-    { word: "Benevolent", pronunciation: "/bəˈnev.əl.ənt/", pos: "adjective", definition: "Well-meaning and kindly; serving a charitable purpose.", example: "The benevolent stranger helped them carry their groceries home." },
-    { word: "Vivacious", pronunciation: "/vɪˈveɪ.ʃəs/", pos: "adjective", definition: "Attractively lively and animated, especially of a woman.", example: "Her vivacious nature made her the life of every party." },
-    { word: "Redolent", pronunciation: "/ˈred.əl.ənt/", pos: "adjective", definition: "Strongly reminiscent or suggestive of something; fragrant or sweet-smelling.", example: "The kitchen was redolent with the aroma of freshly baked bread." },
+    { word: "Verdant", pronunciation: "VER-dent", pos: "adjective", definition: "Green with grass or other rich vegetation.", example: "The verdant hills of Ireland stretched as far as the eye could see." },
+    { word: "Sonorous", pronunciation: "suh-NOR-us", pos: "adjective", definition: "Capable of producing a deep or ringing sound; impressive in style.", example: "The actor's sonorous voice commanded attention whenever he spoke." },
+    { word: "Benevolent", pronunciation: "beh-NEV-oh-lent", pos: "adjective", definition: "Well-meaning and kindly; serving a charitable purpose.", example: "The benevolent stranger helped them carry their groceries home." },
+    { word: "Vivacious", pronunciation: "vih-VAY-shus", pos: "adjective", definition: "Attractively lively and animated, especially of a woman.", example: "Her vivacious nature made her the life of every party." },
+    { word: "Redolent", pronunciation: "RED-oh-lent", pos: "adjective", definition: "Strongly reminiscent or suggestive of something; fragrant or sweet-smelling.", example: "The kitchen was redolent with the aroma of freshly baked bread." },
 
     // Week 5
-    { word: "Perspicacious", pronunciation: "/ˌpɜː.spɪˈkeɪ.ʃəs/", pos: "adjective", definition: "Having a ready insight into and understanding of things; perceptive.", example: "Her perspicacious observations helped solve the mystery." },
-    { word: "Magnanimous", pronunciation: "/mæɡˈnæn.ɪ.məs/", pos: "adjective", definition: "Generous or forgiving, especially toward a rival or less powerful person.", example: "The champion was magnanimous in victory, praising her opponent's skill." },
-    { word: "Loquacious", pronunciation: "/ləˈkweɪ.ʃəs/", pos: "adjective", definition: "Tending to talk a great deal; talkative.", example: "The loquacious taxi driver shared stories throughout the entire journey." },
-    { word: "Iridescent", pronunciation: "/ˌɪr.ɪˈdes.ənt/", pos: "adjective", definition: "Showing luminous colors that seem to change when seen from different angles.", example: "The soap bubbles created an iridescent display in the sunlight." },
-    { word: "Euphonious", pronunciation: "/juːˈfəʊ.ni.əs/", pos: "adjective", definition: "Pleasing to the ear; harmonious in sound.", example: "The euphonious melody of the harp filled the room." },
+    { word: "Perspicacious", pronunciation: "per-spih-KAY-shus", pos: "adjective", definition: "Having a ready insight into and understanding of things; perceptive.", example: "Her perspicacious observations helped solve the mystery." },
+    { word: "Magnanimous", pronunciation: "mag-NAN-ih-mus", pos: "adjective", definition: "Generous or forgiving, especially toward a rival or less powerful person.", example: "The champion was magnanimous in victory, praising her opponent's skill." },
+    { word: "Loquacious", pronunciation: "loh-KWAY-shus", pos: "adjective", definition: "Tending to talk a great deal; talkative.", example: "The loquacious taxi driver shared stories throughout the entire journey." },
+    { word: "Iridescent", pronunciation: "ear-ih-DES-ent", pos: "adjective", definition: "Showing luminous colors that seem to change when seen from different angles.", example: "The soap bubbles created an iridescent display in the sunlight." },
+    { word: "Euphonious", pronunciation: "yoo-FOH-nee-us", pos: "adjective", definition: "Pleasing to the ear; harmonious in sound.", example: "The euphonious melody of the harp filled the room." },
 
     // Week 6
-    { word: "Sublime", pronunciation: "/səˈblaɪm/", pos: "adjective", definition: "Of such excellence, grandeur, or beauty as to inspire great admiration.", example: "The view from the mountain peak was absolutely sublime." },
-    { word: "Sagacious", pronunciation: "/səˈɡeɪ.ʃəs/", pos: "adjective", definition: "Having or showing keen mental discernment and good judgment; wise.", example: "The sagacious advisor helped them avoid many costly mistakes." },
-    { word: "Sumptuous", pronunciation: "/ˈsʌmp.tʃu.əs/", pos: "adjective", definition: "Splendid and expensive-looking; magnificent.", example: "They enjoyed a sumptuous feast at the wedding reception." },
-    { word: "Ameliorate", pronunciation: "/əˈmiː.li.ə.reɪt/", pos: "verb", definition: "To make something bad or unsatisfactory better.", example: "The new policies helped ameliorate working conditions in the factory." },
-    { word: "Scintillating", pronunciation: "/ˈsɪn.tɪ.leɪ.tɪŋ/", pos: "adjective", definition: "Sparkling or shining brightly; brilliantly and excitingly clever or skillful.", example: "Her scintillating wit kept everyone entertained throughout dinner." }
+    { word: "Sublime", pronunciation: "suh-BLIME", pos: "adjective", definition: "Of such excellence, grandeur, or beauty as to inspire great admiration.", example: "The view from the mountain peak was absolutely sublime." },
+    { word: "Sagacious", pronunciation: "suh-GAY-shus", pos: "adjective", definition: "Having or showing keen mental discernment and good judgment; wise.", example: "The sagacious advisor helped them avoid many costly mistakes." },
+    { word: "Sumptuous", pronunciation: "SUMP-choo-us", pos: "adjective", definition: "Splendid and expensive-looking; magnificent.", example: "They enjoyed a sumptuous feast at the wedding reception." },
+    { word: "Ameliorate", pronunciation: "uh-MEEL-yor-ate", pos: "verb", definition: "To make something bad or unsatisfactory better.", example: "The new policies helped ameliorate working conditions in the factory." },
+    { word: "Scintillating", pronunciation: "SIN-tih-lay-ting", pos: "adjective", definition: "Sparkling or shining brightly; brilliantly and excitingly clever or skillful.", example: "Her scintillating wit kept everyone entertained throughout dinner." }
 ];
 
 // Service Worker Registration
