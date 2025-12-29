@@ -441,7 +441,14 @@ function displayWord() {
     }
 }
 
-// Notification handling
+// ============================================================================
+// NOTIFICATION CODE - COMMENTED OUT UNTIL BACKEND SERVER IS SET UP
+// ============================================================================
+// Note: Push notifications require a backend server to send notifications
+// when the app is closed. Uncomment this code once the server is ready.
+// ============================================================================
+
+/*
 async function requestNotificationPermission() {
     if (!('Notification' in window)) {
         alert('This browser does not support notifications');
@@ -527,11 +534,16 @@ async function showNotification() {
         });
     }
 }
+*/
 
 // Initialize
 document.addEventListener('DOMContentLoaded', () => {
     displayWord();
 
+    // ============================================================================
+    // NOTIFICATION INITIALIZATION - COMMENTED OUT UNTIL BACKEND SERVER IS SET UP
+    // ============================================================================
+    /*
     // Check notification permission status
     if ('Notification' in window && Notification.permission === 'default') {
         document.getElementById('notificationPrompt').style.display = 'block';
@@ -547,4 +559,5 @@ document.addEventListener('DOMContentLoaded', () => {
     if (notifButton) {
         notifButton.addEventListener('click', requestNotificationPermission);
     }
+    */
 });
